@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/qlpUGbjlTtiDsnKZr2oBjuS4fqlv/wPCb7qXlJd0IoYUwVLa1Vbz4QO6DDYSr60BEXSAjfReBIe0h8mniEQ0A==",
+  "dgSpecHash": "+0SJXsbUbal5b3lOz7BcAN4ZagtWrzzLZNHbYyqgtPy5MCbj4ID7JovpIU6DsX6hfU3K7krs3xn67qppgqZQTw==",
   "success": true,
   "projectFilePath": "/home/rachit1904/projects/DataNexus/DataNexus/DataNexus.csproj",
   "expectedPackageFiles": [
     "/home/rachit1904/.nuget/packages/bouncycastle.cryptography/2.3.1/bouncycastle.cryptography.2.3.1.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/google.protobuf/3.26.1/google.protobuf.3.26.1.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/k4os.compression.lz4/1.3.8/k4os.compression.lz4.1.3.8.nupkg.sha512",

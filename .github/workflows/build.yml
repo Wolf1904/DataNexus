@@ -41,7 +41,7 @@ jobs:
     - name: Build solution
       run: dotnet build ./DataNexus/DataNexus.csproj --no-restore --configuration Release
 
-    - name: Run Tests
+    - name: Run Tests and Collect Code Coverage
       run: dotnet test ./DataNexus/DataNexus.csproj --no-build --configuration Release --collect:"Code coverage"
 
     - name: End SonarCloud Analysis
