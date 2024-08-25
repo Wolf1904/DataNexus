@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '7.x'
 
     - name: Restore dependencies
-      run: dotnet restore /DataNexus/DataNexus/DataNexus.csproj
+      run: dotnet restore ./DataNexus/DataNexus/DataNexus.csproj
 
     - name: Setup SonarCloud
       uses: sonarsource/sonarcloud-github-action@v2
@@ -34,10 +34,10 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
     - name: Build solution
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build ./DataNexus/DataNexus/DataNexus.csproj --no-restore --configuration Release
 
     - name: Run Tests
-      run: dotnet test --no-build --configuration Release --collect:"Code coverage"
+      run: dotnet test ./DataNexus/DataNexus/DataNexus.csproj --no-build --configuration Release --collect:"Code coverage"
 
     - name: End SonarCloud Analysis
       run: dotnet-sonarscanner end
