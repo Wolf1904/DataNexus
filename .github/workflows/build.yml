@@ -34,10 +34,10 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
     - name: Build solution
-      run: dotnet build ./DataNexus/DataNexus/DataNexus.csproj --no-restore --configuration Release
+      run: dotnet build ./DataNexus/DataNexus.csproj --no-restore --configuration Release
 
     - name: Run Tests
-      run: dotnet test ./DataNexus/DataNexus/DataNexus.csproj --no-build --configuration Release --collect:"Code coverage"
+      run: dotnet test ./DataNexus/DataNexus.csproj --no-build --configuration Release --collect:"Code coverage"
 
     - name: End SonarCloud Analysis
       run: dotnet-sonarscanner end
