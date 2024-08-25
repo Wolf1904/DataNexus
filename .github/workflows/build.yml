@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '7.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore /DataNexus/DataNexus/DataNexus.csproj
 
     - name: Setup SonarCloud
       uses: sonarsource/sonarcloud-github-action@v2
