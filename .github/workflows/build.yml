@@ -27,6 +27,11 @@ jobs:
     - name: Add .NET tools to PATH
       run: echo "/home/runner/.dotnet/tools" >> $GITHUB_PATH
 
+    - name: Set up environment variables
+      run: |
+        echo "DB_USER=${{ secrets.DB_USER }}" >> $GITHUB_ENV
+        echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> $GITHUB_ENV
+
     - name: Restore dependencies
       run: dotnet restore ./DataNexus/DataNexus.csproj
 
