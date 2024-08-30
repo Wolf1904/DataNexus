@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PMIhK69OQ58lorAh0e6RshFqJafxRbwb3yXW35SwwlXaX3ynRlF9qf4rsv7oOKNUmNNaFgA/oJjQrvEtK2gssw==",
+  "dgSpecHash": "KUydvQlk3TyQ18eHO36hhVUIngPvqrw1XYmCEsGL0wbZrN/tu++KikUECM6Kv5GZmJKr038eJ4piGdJAvMGYNA==",
   "success": true,
   "projectFilePath": "/home/rachit1904/projects/DataNexus/DataNexus/DataNexus.csproj",
   "expectedPackageFiles": [
@@ -183,6 +183,14 @@
     "/home/rachit1904/.nuget/packages/system.windows.extensions/8.0.0/system.windows.extensions.8.0.0.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit/2.5.0/xunit.2.5.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.analyzers/1.2.0/xunit.analyzers.1.2.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.assert/2.5.0/xunit.assert.2.5.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.core/2.5.0/xunit.core.2.5.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.extensibility.core/2.5.0/xunit.extensibility.core.2.5.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.extensibility.execution/2.5.0/xunit.extensibility.execution.2.5.0.nupkg.sha512",
+    "/home/rachit1904/.nuget/packages/xunit.runner.visualstudio/2.5.0/xunit.runner.visualstudio.2.5.0.nupkg.sha512",
     "/home/rachit1904/.nuget/packages/zstdsharp.port/0.8.0/zstdsharp.port.0.8.0.nupkg.sha512"
   ],
   "logs": []
